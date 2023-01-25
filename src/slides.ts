@@ -1,10 +1,10 @@
-interface ISlide {
+export interface ISlide {
   [key: number]: string;
 }
 
 const baseUrl: string = "https://images.unsplash.com/";
 
-export const slides: ISlide = [
+export const slides: ISlide[] = [
   `${baseUrl}photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80`,
   `${baseUrl}photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80`,
   `${baseUrl}photo-1495467033336-2effd8753d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80`,
