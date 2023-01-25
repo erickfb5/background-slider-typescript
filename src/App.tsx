@@ -8,7 +8,6 @@ const App: React.FC<{}> = () => {
 
     useEffect(() => {
         document.body.style.backgroundImage = `url(${slides[activeSlide]})`;
-        console.log('slides',slides)
     }, [activeSlide, slides]);
 
     const handleClick = (direction: string) => {
